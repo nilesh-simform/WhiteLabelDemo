@@ -102,6 +102,30 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+    flavorDimensions "envirnoment"
+
+    productFlavors {
+
+        dev {
+            manifestPlaceholders=[hostName:"dev-api.app1.ca"]
+            dimension 'envirnoment'
+            applicationIdSuffix 'dev'
+        }
+
+        stage {
+            manifestPlaceholders=[hostName:"stage-api.app1.ca"]
+            dimension 'envirnoment'
+            applicationIdSuffix 'stage'
+        }
+
+        prod {
+            manifestPlaceholders=[hostName:"console-api.app1.ca"]
+            dimension 'envirnoment'
+            applicationId 'ca.app1'
+            applicationIdSuffix '.community'
+        }
+    }
 }
 
 dependencies {

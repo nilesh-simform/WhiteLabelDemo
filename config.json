@@ -1,0 +1,15 @@
+{
+    "dev": {
+      "hostName": "dev-api.app2.ca",
+      "applicationIdSuffix": "dev2"
+    },
+    "stage": {
+      "hostName": "stage-api.app2.ca",
+      "applicationIdSuffix": "stage2"
+    },
+    "prod": {
+      "hostName": "console-api.app2.ca",
+      "applicationId": "ca.app2",
+      "applicationIdSuffix": ".community2"
+    }
+  }
