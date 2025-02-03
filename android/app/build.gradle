@@ -76,7 +76,7 @@ android {
 
     namespace "com.wldemo"
     defaultConfig {
-        applicationId "com.wldemo"
+        applicationId "com.simform.my.app1"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
