@@ -1,0 +1,16 @@
+{
+  "flavors": {
+    "Debug": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "org.reactjs.native.example.debug"
+    },
+    "Release": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "org.reactjs.native.example.release"
+    },
+    "ReleaseProd": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "org.reactjs.native.example.releaseprod"
+    },
+    "ReleaseStage": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "org.reactjs.native.example.releasestage"
+    }
+  }
+}
