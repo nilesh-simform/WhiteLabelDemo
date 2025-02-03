@@ -1,10 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import HomeScreen from './modules/Home/HomeScreen';
 
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello Simform</Text>
+      {/* <Text>Hello Simform</Text> */}
+      <HomeScreen />
     </View>
   );
 }

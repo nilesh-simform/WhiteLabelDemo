@@ -1,0 +1,10 @@
+{
+  "styles": {
+    "textStyle": {
+      "fontSize": 24,
+      "fontWeight": "bold",
+      "color": "blue",
+      "textAlign": "center"
+    }
+  }
+}
